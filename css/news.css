@@ -1,0 +1,119 @@
+body {
+  overflow-x: hidden;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+*{
+  	margin:0px;
+ 	padding: 0px;
+}
+a{
+ 
+  text-decoration: none;
+}
+.sou{
+	width: 100%;
+	overflow: hidden;
+}
+.flt{
+	float: left;
+	border-right: 1px solid rgba(0,0,0,.07);
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: transform .25s ease-out;
+    width: 30%;
+    z-index: 3;
+    position: fixed;
+    padding-bottom: 3%;
+}
+.flt::-webkit-scrollbar {
+    width: 4px;
+}
+.flt::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 4px;
+}
+.flt:hover::-webkit-scrollbar-thumb {
+    background: hsla(0,0%,53%,.4);
+}
+.flt:hover::-webkit-scrollbar-track {
+    background: hsla(0,0%,53%,.1);
+}
+.flo{
+	width: 70%;
+	float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: left .25s ease;
+}
+.kuan{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #EDEDED;
+}
+.kuan input{
+	width: 97%;
+	border: 0;
+	font-size: 15px;
+	height: 40px;
+	outline:none;
+	padding-left: 3%;
+}
+.da{
+	width: 100%;
+	
+}
+.one{
+	padding-top: 10%;
+}
+.da p{
+	color: #333;
+	font-size: 16px;
+	padding-left: 16px;
+}
+.da ul{
+	
+}
+.da ul li{
+	height: 20px;
+	list-style: none;
+	margin-top: 8%;
+	font-size: 15px;
+	color: #666666;
+	padding-left: 30px;
+}
+.one .teli{
+	border-left: 3px solid #00C9FC;
+	color: #00C9FC;
+}
+.zuo{
+	width: 90%;
+	margin-top: 15px;
+	margin-bottom: 3%;
+	padding-left:10px;
+	padding-right:10px;
+}
+.zuo h1{
+	
+}
+.zuo p{
+	margin-top: 30px;
+	color: #666666;
+	font-size: 15px;
+}
+.zuo p a{
+	color: #00cafc;
+}
+.zuo ul{
+	margin-top: 30px;
+}
+.zuo ul li{
+	color: #666;
+	font-size: 15px;
+	margin-top: 1%;
+}
